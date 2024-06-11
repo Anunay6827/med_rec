@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Header */
+header {
+    background-color: #2E8B57; /* Teal background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F0FFF0; /* Light green background */
+}
+
+.search-bar button {
+    background-color: #228B22; /* Green button */
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Featured Products */
+.featured-products {
+    margin-top: 30px;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.medicine-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.medicine {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #F0FFF0; /* Light green background */
+}
+
+.medicine img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.medicine h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #2E8B57; /* Teal text */
+}
+
+.medicine p {
+    color: #228B22; /* Green text */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #2E8B57, #228B22); /* Gradient background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-media-links a img {
+    margin-right: 10px;
+}
