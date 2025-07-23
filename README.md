@@ -14,6 +14,7 @@ pip install -U google-generativeai
 
 
 You also need to put all the necessary files in the same folder.
+
 The necessary files namely: kmeans_model.joblib (preloaded model), medicine.csv
 
 The API key for gemini's ocr is already present in the code.
